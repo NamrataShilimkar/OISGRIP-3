@@ -1,0 +1,41 @@
+@font-face {
+	font-family: 'Roboto-Regular';
+	src: url('../fonts/Roboto-Regular.eot');
+	src: local('☺'), url('../fonts/Roboto-Regular.woff') format('woff'), url('../fonts/Roboto-Regular.ttf') format('truetype'), url('../fonts/Roboto-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'FontAwesome';
+	src: url('../fonts/fontawesome-webfont.eot');
+	src: local('☺'), url('../fonts/fontawesome-webfont.woff') format('woff'), url('../fonts/fontawesome-webfont.ttf') format('truetype'), url('../fonts/fontawesome-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style:italic ;
+}
+body{font-family: 'Roboto-Regular';background: radial-gradient(circle at center, rgb(210, 11, 11) 0, rgb(210, 67, 167), rgb(189, 241, 58) 100%) ;}
+header .navbar{padding: .5rem 0;}
+header nav.navbar .navbar-brand{color:rgb(255, 255, 255);}
+section.todo-outer {
+    width: 95%;
+    float: left;
+    padding: 25px 0;
+}
+section.todo-outer h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.todo-inner {
+    width: 100%;
+    float: left;
+    padding: 35px;
+    box-shadow: 0px 0px 15px #141414;
+    background: #fff;
+}
+table tr td button {
+    background: no-repeat;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+.completed{text-decoration: line-through;}
